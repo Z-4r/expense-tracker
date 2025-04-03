@@ -9,3 +9,41 @@ body{
 h1{
   color: #333;
 }
+
+.container{
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background: white;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.expense-form{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+input, button {
+  padding: 10px;
+  font-size: 16px;
+}
+
+button{
+  background-color: #28a745;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.expense-list{
+  list-style: none;
+  padding: 0;
+}
+
+.expense-list li{
+  list-style: none;
+  padding: 0;
+}
